@@ -9,7 +9,11 @@ import closeMenu from "../images/close.svg";
  * Represents navigation links and menu toggles.
  *
  * @component
+<<<<<<< HEAD
  */               
+=======
+ */
+>>>>>>> 21ebf3fa (protfolio code)
 
 const NavLinks = () => {
   // State to track whether the menu is open or closed
