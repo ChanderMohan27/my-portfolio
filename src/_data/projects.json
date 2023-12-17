@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Emotion Recognition",
+    "description": "Facial Emotion Prediction",
+    "image": "/projectImages/Emotion_image.png",
+    "image2": "/projectImages/facial1.png",
+    "image3": "/projectImages/facial1.png",
+    "body": "The objective of this project is to develop a single CNN neural network that will automatically recognize facial expression and facs code for an image. I also develop my own data loader to preprocess the images and make them suitable for modelling. In this project, I have used CK+ dataset consisting of 560 labelled images from 123 subjects. The dataset contains different types of images like grayscale and RGB images.\n In this project, I have implemented my knowledge by experimenting with different model and at the end I have selected VGG16 Model by using transfer learning. I also utalize image preprocessing, Transfer Learning, experiments and tuning, Adam Learning Rate and other regularization techniques. I am using a small dataset so making a good model with small data in a neural network is challenging for me so I have also used data augmentation techniques to reduce the overfitting of the model.\n This dataset is imbalance, so for emotion prediction and decision making, I used accuracy for emotion prediction and F1 score for facs units prediction with a threshold 0.5  to make the decision at the end." ,
+    "technologies": ["Tensorfolw", "Keras API", "Data Augmentation", "Plotly", "VGG16 Model"],
+    "github": "https://github.com/ChanderMohan27/Deep-Learning-CNN-",
+    "_deployed": "https://norrinradd8.github.io/bike_buddy/",
+    "bgcolor": "var(--hl2-color)",
+    "id": "1"
+  },
+  {
+    "title": "Credit Risk",
+    "description": "Credit Risk Prediction",
+    "image": "/projectImages/credit_risk_2.png",
+    "image2": "/projectImages/Credit_risk.jpg",
+    "image3": "/projectImages/Credit_risk.png",
+    "technologies": ["Data Analysis", "Model Development", "Flask", "Financial Modeling","Team Collaboration"],
+    "body": "During my masters, I collaborated with a team to develop a credit risk management system – A machine learning model that will automate the decision-making process in the financial domain. Demonstrating a comprehensive understanding of the project's intricacies, I  took charge of the entire preprocessing of the data and Machine Learning Model Implementation.\n The purpose of this project is to use efficient machine learning models to automate the decision-making process that will be complimentary for both consumers and the institutions. Also, it is required to make the ML models explainable to reduce frauds in the finance industry, biases like illegal discrimination and promote transparency as most of the ML models are highly complex and complicated to interpret for consumers.\n For user interface we have used Flask framework to create a user interface where they can enter the details required for calculating the loan approval decision and then the approval decision appears on the same screen with a reason for that particular outcome.",
+    "github": "https://github.com/ChanderMohan27/Credit-Risk-Management-Data-Science-Project",
+    "_deployed": "",
+    "bgcolor": "var(--hl-color)",
+    "id": "2"
+  },
+  {
+    "title": "Predictive Modeling",
+    "description": "Cirrhosis Disease Prediction",
+    "image": "/projectImages/Predictive_modeling.png",
+    "image2": "/projectImages/disease.jpeg",
+    "image3": "/projectImages/disease.png",
+    "technologies": ["Data Preprocessing","Data Analysis", "Feature Engineering", "Model Selection", "Hyperparameter tuning"],
+    "body": "This project is about cirrhosis disease prediction like a person has which stage of cirrhosis disease. The dataset for this project is taken from kaggle. The project's well-organized methodology and structure, which includes data preprocessing, feature selection, model fitting, hyperparameter tuning, and model comparison, are its strongest points.\n During data preprocessing, various cleaning techniques were applied to ensure the dataset's quality. There are a number of features in the dataset so I have used random forest feature selection to get top 10 features. The models that I have used for experiments are KNN, decision tree, random forest, and naive Bayes. I utilized CVGrid Search for hyperparameter tuning and experimenting with various parameters. \n To compare the performance of the different models, classification reports were generated, providing insights into accuracy, precision, recall, and F1-score for each model. Furthermore, to determine if there were any significant differences in accuracy between models, a t-test was conducted.",
+    "github": "https://github.com/ChanderMohan27/Machine-Learning-Project-Predictive-Modeling-",
+    "_deployed": "",
+    "bgcolor": "#6c4bf4",
+    "id": "3"
+  },
+  {
+    "title": "Netural Language Processing",
+    "description": "Job Advertisement Classifcation",
+    "image": "/projectImages/nlp_main.png",
+    "image2": "/projectImages/Nlp.jpeg",
+    "image3": "/projectImages/Nlp.png",
+    "technologies": ["NLTK","Text Preprocessing","Vector Feature Extraction", "Big Data Processing","Flask", "HTML"],
+    "body": "This project is about classifying the category of a given job description. The Data is stored in multiple files and folders in xml format and with unknown data quality issues. I integrate the given data set with another data source, identify and resolve conflicts in data integration. I used appropriate Python tools and libraries to parse the data into a pandas dataframe.\n To construct an effective machine learning model, I performed text preprocessing on the dataset. This involved generating feature representations for job advertisement descriptions utilizing TF-IDF. Subsequently, I developed machine learning models specifically for document classification and carried out a thorough evaluation and analysis of these models.\n To make this project user interface, I used Flask framework in user can file a job and search for a specific Job. I have also added a feature that users can provide the Job description so the machine learning model will classify the Job category.",
+    "github": "https://github.com/ChanderMohan27/NLP-Project",
+    "_deployed": "",
+    "bgcolor": "#f85781",
+    "id": "4"
+  }
+]
