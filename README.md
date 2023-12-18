@@ -38,7 +38,7 @@ This portfolio is a reflection of my professional journey, featuring projects th
 
 
 ## Acknowledgements
-- Built upon a template from [michaelyeates](https://github.com/mdyeates/my-portfolio), with gratitude for the foundation.
+- Built upon a template from [michaelyeates](https://github.com/mdyeates), with gratitude for the foundation.
 - Thank you Michael Yeates for inspiration.
 
 ## Contact Information
