@@ -74,8 +74,8 @@
     "image3": "/projectImages/planner3.png",
     "technologies": ["DVC", "MLops Pipelines","ML Flow", "CI-CD", "Random Forest", "Cookiecutter"],
     "body": "In this machine learning project, the primary focus is on establishing a robust MLOps pipeline, integrating it with a CI/CD pipeline, and leveraging the Data Version Control (DVC) framework. The goal is to streamline and automate the end-to-end machine learning lifecycle.\n To develop this model using a CI/CD pipeline, we utilized Cookiecutter to establish the project structure. For Data Version Control, the DVC framework along with dvc-gdrive was employed. After structuring the project, we implemented a dvc.yaml file, segregating the code into distinct modules like load_data.py, Data_preprocessing.py, and train_model.py. The chosen model is a Random Forest, suitable for this classification problem given the imbalanced nature of the data. To address the imbalance, we aggregated some target values. Additionally, feature engineering was applied to identify and utilize the top 10 relevant features.\n We utilize JSON files to automatically store important results from our model evaluation. The F1 score is a measure of a model's accuracy that considers both precision and recall. ",
-    "github": "",
-    "_deployed": "https://mdyeates.github.io/daily-planner/",
+    "github": "https://github.com/ChanderMohan27/Migraine_Analysis_Machine_Learnnig",
+    "_deployed": "",
     "bgcolor": "#3e67ff",
     "id": "6"
   }
