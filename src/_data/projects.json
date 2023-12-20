@@ -50,5 +50,34 @@
     "_deployed": "",
     "bgcolor": "#f85781",
     "id": "4"
+  },
+
+  {
+    "title": "Data Visualization",
+    "description": "Crime in India",
+    "image": "/projectImages/data_v_1.png",
+    "image2": "/projectImages/data_visualization.jpg",
+    "image3": "/projectImages/p13.png",
+    "body": "Crime in India is a pressing concern that demands thorough analysis and understanding. This data visualization project aims to conduct a State-wise Crime Analysis for the Year 2017. By utilizing R programming for data visualization, we intend to provide a comprehensive overview of crime statistics across different states in India, uncovering valuable insights from the data.\n The primary objective of this analysis is to explore and visualize the patterns and prevalence of crime in India. Additionally, we seek to understand the potential factors influencing crime rates by comparing them with the unemployment rate and other relevant factors. The insights derived from this analysis can contribute to a better understanding of the issue and facilitate the formulation of effective strategies for crime prevention.\n Using R programming and relevant packages for geospatial data visualization, we will create interactive maps and graphs to represent crime statistics across different states.",
+    "technologies": ["R Programming","Data Analysis", "ggplot2", "Data Preprocessing", "dplyr", "tidyr"],
+    "github": "https://github.com/ChanderMohan27/Data-Visualization-Using-R",
+    "Rpubs": "https://rpubs.com/Chander26/1051342",
+    "bgcolor": "#e47911",
+    "id": "5"
+  },
+
+  {
+    "title": "MLops",
+    "description": "Migraine Analysis",
+    "image": "/projectImages/cd.png",
+    "image2": "/projectImages/ML2.jpg",
+    "image3": "/projectImages/planner3.png",
+    "technologies": ["DVC", "MLops Pipelines","ML Flow", "CI-CD", "Random Forest", "Cookiecutter"],
+    "body": "In this machine learning project, the primary focus is on establishing a robust MLOps pipeline, integrating it with a CI/CD pipeline, and leveraging the Data Version Control (DVC) framework. The goal is to streamline and automate the end-to-end machine learning lifecycle.\n To develop this model using a CI/CD pipeline, we utilized Cookiecutter to establish the project structure. For Data Version Control, the DVC framework along with dvc-gdrive was employed. After structuring the project, we implemented a dvc.yaml file, segregating the code into distinct modules like load_data.py, Data_preprocessing.py, and train_model.py. The chosen model is a Random Forest, suitable for this classification problem given the imbalanced nature of the data. To address the imbalance, we aggregated some target values. Additionally, feature engineering was applied to identify and utilize the top 10 relevant features.\n We utilize JSON files to automatically store important results from our model evaluation. The F1 score is a measure of a model's accuracy that considers both precision and recall. ",
+    "github": "",
+    "_deployed": "https://mdyeates.github.io/daily-planner/",
+    "bgcolor": "#3e67ff",
+    "id": "6"
   }
+
 ]
