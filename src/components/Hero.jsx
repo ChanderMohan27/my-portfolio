@@ -19,8 +19,7 @@ const Hero = ({ name }) => {
       bottom: "0",
       opacity: "0.3",
       mixBlendMode: "lighten",
-      height: "90vh", // Use viewport height for better responsiveness
-      width: "100%", // Take up the full width
+      height: "80%",
     },
 
     textContainer: {
@@ -32,13 +31,9 @@ const Hero = ({ name }) => {
       color: "#fff",
       textShadow: "1px 1px 3px #000",
     },
+    
 
-    name: {
-      color: "var(--text-color)",
-      fontWeight: "700",
-      marginTop: "-100px",
-      paddingBottom: "28px",
-    },
+  
     quote: {
       fontFamily: "Bleu Fumee", // Replace "YourChosenFont" with the desired font
       fontSize: "18px", // Adjust the font size as needed
