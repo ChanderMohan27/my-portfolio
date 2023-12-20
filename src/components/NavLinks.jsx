@@ -9,15 +9,7 @@ import closeMenu from "../images/close.svg";
  * Represents navigation links and menu toggles.
  *
  * @component
-<<<<<<< HEAD
-<<<<<<< HEAD
  */               
-=======
- */
->>>>>>> 21ebf3fa (protfolio code)
-=======
- */               
->>>>>>> 04e4b1a1 (adding the Node.js files that I have created for Protfolio)
 
 const NavLinks = () => {
   // State to track whether the menu is open or closed
