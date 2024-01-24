@@ -91,7 +91,7 @@ const Hero = ({ name }) => {
       >
         {/* Add your data science quote here */}
         <p className="quote-text">
-          "Data Scientist: Person who is better at statistics than any software engineer and better at software engineering than any statistician."
+          "Data Scientist: A Person who is better at statistics than any software engineer and better at software engineering than any statistician."
         </p>
       </motion.div>
       <motion.div className="author" style={styles.author}>
