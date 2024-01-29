@@ -5,10 +5,12 @@ import Button from "./Button";
 import aboutMeImg from "../images/aboutme.jpeg";
 
 /**
- 
+ * Represents the About Me section.
+ * Displays information about the user.
+ * Not currently in use.
  *
  * @component
- * @param {string} Chander - The name of the user.
+ * @param {string} name - The name of the user.
  */
 
 const AboutMe = ({ name }) => {
