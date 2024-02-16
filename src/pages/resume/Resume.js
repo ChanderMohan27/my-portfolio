@@ -3,7 +3,7 @@ import Button from '../../components/Button';
 import Footer from "../../components/Footer";
 const Resume = ({ brand }) => {
   // const resumeLink = 'https://drive.google.com/file/d/1wdspfe-wv_MKe0bobHk8NMUNoiozOcUZ/view?usp=drive_link'; // Replace with the actual link
-  const Downloadlink = process.env.PUBLIC_URL+ "/pdfs/Resume.docx"
+  const Downloadlink = process.env.PUBLIC_URL+ "/pdfs/Resume.pdf"
   return (
     <section className="resume container">
       <PageHeader title="Resume" description="Uncover my expertise" />
