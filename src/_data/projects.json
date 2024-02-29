@@ -1,4 +1,17 @@
 [
+  { 
+    "title": "Data Analysis",
+    "description": "Whatapp Chat Analysis",
+    "image": "/projectImages/chatt.png",
+    "image2": "/projectImages/whatappp.png",
+    "image3": "/projectImages/planner3.png",
+    "technologies": ["Seaborn", "Python","Streamlit", "Numpy", "Pandas", "Matplotlib"],
+    "body": "The WhatsApp Chat Analyzer is a Streamlit-based web application designed to analyze and visualize WhatsApp chat data. \n Users can upload chat transcripts in text format, initiating a preprocessing step to extract essential information such as timestamps, sender names, and message content. Once cleaned and transformed, the data undergoes comprehensive analysis, enabling users to gain insights into various aspects of the conversation. \n From timeline analysis, highlighting monthly and daily trends in message frequency, to user activity analysis, identifying the most active participants, the application offers a wide range of analytical features. Moreover, word frequency analysis and wordcloud generation provide visual representations of common words and phrases used in the chat, offering valuable insights into communication patterns. \n Through an interactive interface, users can dynamically explore different analysis options, customize parameters, and visualize results using line charts, heatmaps, pie charts, and bar graphs. Ultimately, the WhatsApp Chat Analyzer serves as a powerful tool for uncovering trends, patterns, and valuable insights within WhatsApp conversations, facilitating deeper understanding and analysis of communication dynamics.",
+    "github": "https://github.com/ChanderMohan27/Whatapp-Chat-analyzer",
+    "deployed": "https://chandermohan27-whatapp-chat-analyzer-app-ygtqge.streamlit.app/",
+    "bgcolor": "#4BFFB6",
+    "id": "7"
+  },
   {
     "title": "Emotion Recognition",
     "description": "Facial Emotion Prediction",
@@ -78,20 +91,7 @@
     "_deployed": "",
     "bgcolor": "#3e67ff",
     "id": "6"
-  },
-
-  {
-    "title": "Data Analysis",
-    "description": "Whatapp Chat Analysis",
-    "image": "/projectImages/cd.png",
-    "image2": "/projectImages/ML2.jpg",
-    "image3": "/projectImages/planner3.png",
-    "technologies": ["Seaborn", "Python","Streamlit", "Numpy", "Pandas", "Matplotlib"],
-    "body": "In this machine learning project, the primary focus is on establishing a robust MLOps pipeline, integrating it with a CI/CD pipeline, and leveraging the Data Version Control (DVC) framework. The goal is to streamline and automate the end-to-end machine learning lifecycle.\n To develop this model using a CI/CD pipeline, we utilized Cookiecutter to establish the project structure. For Data Version Control, the DVC framework along with dvc-gdrive was employed. After structuring the project, we implemented a dvc.yaml file, segregating the code into distinct modules like load_data.py, Data_preprocessing.py, and train_model.py. The chosen model is a Random Forest, suitable for this classification problem given the imbalanced nature of the data. To address the imbalance, we aggregated some target values. Additionally, feature engineering was applied to identify and utilize the top 10 relevant features.\n We utilize JSON files to automatically store important results from our model evaluation. The F1 score is a measure of a model's accuracy that considers both precision and recall. ",
-    "github": "https://github.com/ChanderMohan27/Migraine_Analysis_Machine_Learnnig",
-    "deployed": "https://chandermohan27-whatapp-chat-analyzer-app-ygtqge.streamlit.app/",
-    "bgcolor": "#3e67ff",
-    "id": "7"
   }
+  
 
 ]
