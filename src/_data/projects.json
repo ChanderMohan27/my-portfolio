@@ -12,7 +12,7 @@
     "bgcolor": "#4BFFB6",
     "id": "7"
   },
-  {
+  { 
     "title": "Emotion Recognition",
     "description": "Facial Emotion Prediction",
     "image": "/projectImages/Emotion_image.png",

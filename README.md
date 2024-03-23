@@ -1,5 +1,5 @@
 # Personal Protfolio
-[Click here](https://chandermohan.netlify.app/)
+[Click here](https://chandermohan.xyz/)
 
 Welcome to my professional portfolio at https://chandermohan.xyz. This is the central hub for my work, showcasing projects and skills.
 
