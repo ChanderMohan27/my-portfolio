@@ -13,7 +13,7 @@ This portfolio is a reflection of my professional journey, featuring projects th
 - Adapted the Node.js environment for a robust and scalable web application structure.
 - Customized design elements for a more personal touch.
 - Developed new 'About Me' and 'Resume' pages to showcase my career and achievements.
-
+  
   
 - New Created Pages
 
