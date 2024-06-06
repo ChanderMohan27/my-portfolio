@@ -52,7 +52,7 @@ function App() {
   const [originalTitle, setOriginalTitle] = useState();
 
   useEffect(() => {
-    // Hide loader when initial route is loaded
+    // Hide loader when initial route is loaded 
     if (location.pathname !== "/") {
       setShowLoader(false);
     }
@@ -63,7 +63,7 @@ function App() {
     }
 
     // Handle document title change when tab visibility changes
-    const handleTabChange = () => {
+    const handleTabChange = () => { 
       if (document.hidden) {
         document.title = originalTitle;
       } else {

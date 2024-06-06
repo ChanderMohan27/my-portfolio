@@ -43,8 +43,8 @@ const AboutMe = ({ name }) => {
         <div className="row">
           <motion.div
             className="personalImage col-1 col-lg-6"
-            ref={ref}
-            initial={{ x: "-10vw", opacity: 0, scale: 0.5 }}
+            ref={ref} 
+            initial={{ x: "-10vw", opacity: 0, scale: 0.5 }} 
             animate={inView ? { x: 0, opacity: 1, scale: 1 } : { x: "-10vw", opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
             whileHover={{ scale: 1.05 }}
@@ -79,7 +79,7 @@ const AboutMe = ({ name }) => {
                 <motion.p variants={paragraphVariants}>
                 To deepen my understanding, I enrolled in a Master's program in Data Science and today, I stand as a <span style={{ color: "var(--hl-color)" }}>proud graduate </span>with a strong foundation in coding, data visualization, statistical analysis, and machine learning techniques. In my master’s, I learnt different tools and techniques that needed to extract meaningful insights from data, and make <span style={{ color: "var(--hl-color)" }}>data-driven decisions</span>. 
                 </motion.p>
-                <br />
+                <br /> 
                 <motion.p variants={paragraphVariants}>
                 I believe that Data Science is a journey involving the <span style={{ color: "var(--hl-color)" }}>life cycle of data</span> with several stages. It all begins with the collection of data from various sources. Once collected, the data undergoes preprocessing to clean and prepare it for analysis.  After the analysis phase, we prepared data to feed it into machine learning models. This is where the magic happens. These models empower us to make informed <span style={{ color: "var(--hl-color)" }}>decisions and extract valuable information</span> from the data.
                 </motion.p>
@@ -100,7 +100,7 @@ const AboutMe = ({ name }) => {
                 <Button name="View Portfolio" />
               </NavLink>
             </motion.div>
-          </div>
+          </div> 
         </div>
       </div>
     </section>
