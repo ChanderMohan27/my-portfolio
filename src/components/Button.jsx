@@ -26,7 +26,7 @@ const Button = ({ name, color }) => {
         {/* Display the arrow icon */}
         <FiArrowUpRight className="arrow-icon" />
       </div>
-    </motion.button>
+    </motion.button> 
   );
 };
 

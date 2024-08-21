@@ -21,7 +21,7 @@ const ContactInfo = ({ name, email, location }) => {
   return (
     <motion.div
       className="contactInfo"
-      ref={ref}
+      ref={ref} 
       // Initial animation values
       initial={{ y: "10vw", opacity: 0 }}
       // Animate when in view

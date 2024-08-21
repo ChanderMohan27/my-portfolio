@@ -40,15 +40,15 @@ const AboutMe = ({ name }) => {
   return (
     <section className="about"  >
       <div className="aboutContainer container" style={{ maxWidth: '3000px', padding: '10px' }}>
-        <div className="row">
+        <div className="row"> 
           <motion.div
             className="personalImage col-1 col-lg-6"
-            ref={ref} 
+            ref={ref}
             initial={{ x: "-10vw", opacity: 0, scale: 0.5 }} 
             animate={inView ? { x: 0, opacity: 1, scale: 1 } : { x: "-10vw", opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
             whileHover={{ scale: 1.05 }}
-          >
+          > 
             {/* Display the personal image */}
             <motion.img src={aboutMeImg} alt={name} />
           </motion.div>
@@ -98,7 +98,7 @@ const AboutMe = ({ name }) => {
               {/* Button to view the portfolio */}
               <NavLink to="/portfolio">
                 <Button name="View Portfolio" />
-              </NavLink>
+              </NavLink> 
             </motion.div>
           </div> 
         </div>
