@@ -67,7 +67,7 @@ const AboutMe = ({ name }) => {
               >
                 {/* Paragraphs with animation */}
                 <motion.p variants={paragraphVariants}>
-                  I’m a Data Science professional who recently earned a <span style={{ color: "var(--hl-color)" }}> Master of Data Science</span> degree from <span style={{ color: "var(--hl-color)" }}> RMIT University</span>. My journey towards the world of Data Science began with a strong interest in mathematics. 
+                  Chander Mohan a Data Science professional who recently earned a <span style={{ color: "var(--hl-color)" }}> Master of Data Science</span> degree from <span style={{ color: "var(--hl-color)" }}> RMIT University</span>. My journey towards the world of Data Science began with a strong interest in mathematics. 
 
                 </motion.p>
                 <br />
